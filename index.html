@@ -19,11 +19,11 @@
     <!-- Cargar activos -->
     <a-assets>
       <!-- Definir el modelo 3D -->
-      <a-asset-item id="my-model"></a-asset-item>
+      <a-asset-item id="my-model" src="assets/animacionEsap.glb"></a-asset-item>
     </a-assets>
 
     <!-- Marcador personalizado AR.js (cambiar preset="hiro" por type="pattern") -->
-    <a-marker type="pattern">
+    <a-marker type="pattern" url="assets/pattern-marker.patt">
       
       <!-- Incluir el modelo 3D -->
       <a-entity gltf-model="#my-model" position="0 0 0" scale="0.05 0.05 0.05" rotation="-100 0 0"></a-entity>
